@@ -3,6 +3,7 @@
 **이 수업은 오픈소스 프로그래밍 수업의 내용을 포함하고 있습니다.
 
 '''
+
     midtm_data = [row[0]for row in class_data]
     final_data = [row[1]for row in class_data]
     total_data = [row[0]*50/100+ row[1]*50/100 for row in class_data]
@@ -19,6 +20,8 @@
 ![1111111](https://user-images.githubusercontent.com/61642764/146810009-149a5727-f292-4c7f-9b58-403eeb1edbdc.PNG)
 
 '''
+
+
  scores = np.array(read_data('data/data_communication.csv'))
     midtm_range = np.array([0, 100])
     final_range = np.array([0, 100])
@@ -47,5 +50,6 @@
     plt.legend()
     plt.show()
 '''
+
 아래 그림은 위의 코드를 실행하여 나온 질문에 자신에 중간고사 성적을 입력하여 기말고사 점수를 도출해줬다.
 ![2222222222](https://user-images.githubusercontent.com/61642764/146810058-824cc47c-f298-4af6-b958-44c7a427761e.PNG)
