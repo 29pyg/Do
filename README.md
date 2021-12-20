@@ -19,13 +19,6 @@
 ![333333333](https://user-images.githubusercontent.com/61642764/146812137-82f1f705-a53d-4ce4-8a48-2afcf930dcd0.PNG)
 
 
-
-    midtm_data = [row[0]for row in class_data]
-    final_data = [row[1]for row in class_data]
-
-
-를 통해 시험 점수가 입력된 엑셀 파일의 데이터를 읽어온다.
-
     scores = np.array(read_data('data/data_communication.csv'))
     midtm_range = np.array([0, 100])
     final_range = np.array([0, 100])
