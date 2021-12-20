@@ -1,6 +1,8 @@
-*서울과학기술대학교[SeoulTech](http://seoultech.ac.kr/) 컴퓨터공학과 학생 박이규 입니다.
+서울과학기술대학교[SeoulTech](http://seoultech.ac.kr/) 컴퓨터공학과 학생 박이규 입니다.
 
-**이 수업은 오픈소스 프로그래밍 수업의 내용을 포함하고 있습니다.
+이 수업은 오픈소스 프로그래밍 수업의 내용을 포함하고 있습니다.
+
+모든 코드는 오픈소스프로그래밍 수업의 교수님이신 최성록 교수님의 과제 스켈레톤 코드를 바탕으로 제작되었습니다.
 
     midtm_data = [row[0]for row in class_data]
     final_data = [row[1]for row in class_data]
